@@ -1,0 +1,149 @@
+
+img{
+    max-width: 100%;
+}
+
+/* header and footer background color defination*/
+.blueBG{
+    background-color: #085070;
+}
+.myHeader{
+    position: fixed;
+    width: 100%;
+}
+/* Banner image width defination*/
+#banner img{
+    width: 100%;
+    }
+/*Banner bottom marigin defination in respect to puppies section*/
+    #banner {
+        margin-bottom: 84px;
+        }
+/* Header div container and text alligment defination*/
+.hdiv{
+    padding-top: 27px;
+    padding-bottom: 24px;
+    text-align: center;
+    color: white;
+
+}
+/* widh defination for each div puppies*/
+.puppy-1,
+.missing-puppy,
+.puppy-2{
+    width: 30%;
+}
+/* widh defination for each imege in each puppies div*/
+.puppy-1 img,
+.puppy-2 img{
+    width: 100%;
+}
+/* right marign defenation between puppy-1 and missing-puppy*/
+.puppy-1, .missing-puppy{
+    margin-right: 8px;
+}
+/* div puppy-section flex and marign defetion*/
+.puppy-section-1, .puppy-section-2{
+    display: flex;
+    margin-left: 20%;
+    margin-right: 14%;
+}
+/* missig-puppy div color, size and alighment defenation*/
+.missing-puppy{
+    background-color: red;
+    font-size: 50px;
+    text-align: center;
+}
+.missing-puppy h2{
+padding: 50px;
+}
+/* more-puppy-section div text alighment and font defenation*/
+.more-puppy-section{
+    text-align: center;
+    font-size: 45px;
+}
+/* puppy-3 and 4 width defenation*/
+.puppy-3,
+.puppy-4{
+    width: 45%;
+}
+/* puppy-3 and 4 width image defenation*/
+.puppy-3 img,
+.puppy-4 img{
+    width: 100%;
+}
+/* puppy-3 right margin defenation*/
+.puppy-3{
+    margin-right: 45px;
+}
+
+
+.bones-question{
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 60px;
+    
+}
+.first-box{
+    background-color: green;
+    border: 15px solid black;
+    margin: 80px;
+    text-align: center;
+    width: 600px;
+    height: 75px;
+    padding-top: 40px;
+    
+}
+.second-box{
+    background-color: yellow;
+    border: 15px solid black;
+    margin: 80px;
+    text-align: center;
+    width: 600px;
+    height: 75px;
+    padding-top: 40px;
+    
+}
+.thired-box{
+    background-color: red;
+    border: 15px solid black;
+    margin: 80px;
+    text-align: center;
+    width: 600px;
+    height: 75px;
+    padding-top: 40px;
+    
+}
+.fourth-box{
+    background-color: purple;
+    border: 15px solid black;
+    margin: 80px;
+    text-align: center;
+    width: 600px;
+    height: 75px;
+    padding-top: 40px;
+}
+.bonus-top{
+    border-top: 4px solid black;
+    margin-top: 5px;
+}
+.box-section{
+    display: flex;
+    margin-left: 24%;
+    margin-right: 24%;
+}
+footer{
+    color: white;
+    text-align: center;
+    margin-top: 75px;
+}
+/* footer div padding top and bottom defenation*/
+.fdiv{
+    padding-top: 60px;
+    padding-bottom: 85px;
+    transition: calc(data-text);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
